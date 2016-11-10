@@ -1,0 +1,44 @@
+﻿@font-face {
+    font-family: 'glyphicons-halflings-regular';
+    src: url('../Fonts/glyphicons-halflings-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../Fonts/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../Fonts/OpenSans-BoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../Fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-ExtraBoldItalic';
+    src: url('../Fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url('../Fonts/OpenSans-Italic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../Fonts/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: url('../Fonts/OpenSans-LightItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../Fonts/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('../Fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans-SemiboldItalic';
+    src: url('../Fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
+}

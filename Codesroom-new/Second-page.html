@@ -1,0 +1,621 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Second Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--CSS-->
+    <link href="CSS/CodesRoom.style.css" rel="stylesheet" />
+    <link href="CSS/Bootstrap.css" rel="stylesheet" />
+
+    <!--CSS-->
+    <!--Favicons-->
+    <link rel="apple-touch-icon" sizes="57x57" href="Images/Favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Images/Favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Images/Favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Images/Favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Images/Favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Images/Favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Images/Favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Images/Favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Images/Favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/Favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Images/Favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/Favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Favicons-->
+</head>
+<body>
+    <section id="banner">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <div id="test">
+                        <ul>
+                            <li><a href="#" class="codes-header">CodesRoom</a></li>
+                            <li><a href="#" class="codes-small">#Simplify Learning</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-7"></div>
+                <div class="col-sm-2">
+                    <ul class="list-inline header-top">
+                        <li class="dropdown">
+                            <img src="Images/user (1).png" class="dropdown-toggle" data-toggle="dropdown" alt="user"><a href="#" class="dropdown-toggle Codes-Guest" data-toggle="dropdown" style="text-decoration:none;">Guest</a><img src="Images/down-arrow.png" style="margin-left:10px;height:20px;width:20px;" />
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="navbar-content">
+                                        <span>ABC</span>
+                                        <p class="text-muted small">
+                                            abc@gmail.com
+                                        </p>
+                                        <div class="divider">
+                                        </div>
+                                        <a href="#" class="view btn-sm active">LOGOUT</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2">
+                </div>
+                <div class="col-sm-8">
+                    <form>
+                        <h5 class="header-BlogPage"><strong>COURSES & TUTORIALS</strong>/Mobile App Development/Mobile Development/Blog No 28</h5>
+                    </form>
+                    <!--Search Box Ends-->
+                </div>
+                <div class="col-sm-2">
+                </div>
+            </div>
+        </div>
+        <video id="videobcg" preload="auto" autoplay="autoplay" loop="loop" muted="muted" volume="0">
+            <source src="Videos/newvideo.mp4" type="video/mp4">
+            <source src="Videos/newvideo.ogv" type="video/ogg">
+            <source src="Videos/newvideo.webm" type="video/webm">
+            Sorry, your browser does not support HTML5 video.
+        </video>
+    </section>
+
+    <!--Section Ends Here-->
+    <!--Section-->
+    <section class="blogpage-header-bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3" style="background-color:#f5f5f5;">
+                    <div class="drag-left padding">
+                        <h5>More Categories</h5>
+                        <ul class="category-list">
+                            <li>Windows App Development</li>
+                            <li>Android App Development</li>
+                            <li>iPhone App Development</li>
+                            <li>HTML5/CSS3 Development</li>
+                            <li>AngularJS Development</li>
+                            <li>Unity Development</li>
+                            <li>Blackberry App Development</li>
+                            <li>Learning C Language</li>
+                            <li>Learning C++ Language</li>
+                            <li>Learning Octave</li>
+                            <li>Node JS</li>
+                            <li>Learning Libgdbx</li>
+                            <li>Swift Development</li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Tab Section-->
+                <div class="col-sm-6">
+                    <div class="tabs">
+                        <div id="tabs-section">
+                            <ul class="tab-links">
+                                <li class="active activeTab"><a href="#tab1" onclick="changeCategory('blogs')">Blogs</a></li>
+                                <li class="activeTab"><a href="#tab2" onclick="changeCategory('video')">Video</a></li>
+                                <li class="activeTab"><a href="#tab3" onclick="changeCategory('projects')">Projects</a></li>
+                            </ul>
+                        </div>
+                        <!--Blog Section-->
+                        <div class="tab-content">
+                            <div id="tab1" class="tab active">
+                                <div class="blog-portion">
+                                    <div class="col-sm-12 blog-inner-portion">
+                                        <div class="blog-container-img" align="center">
+                                            <img src="Images/Blog-page/blog-main-img.png" class="img-responsive" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <p class="blog-heading"><span><img src="Images/Blog-page/apple-icon.png" /></span>Blog Number 28</p>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion" align="right">
+                                    <a class="blog-action" href="#">
+                                        <span>
+                                            <img src="Images/Blog-page/share-icon.png" />
+                                        </span>&nbsp;
+                                        512
+                                    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a class="blog-action" href="#">
+                                        <span>
+                                            <img src="Images/Blog-page/" />
+                                        </span>&nbsp;
+                                        202
+                                    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a class="blog-action" href="#">
+                                        <span>
+                                            <img src="Images/Blog-page/seen-icon.png" />
+                                        </span>&nbsp;
+                                        1005
+                                    </a>
+                                    <br />
+                                    <p class="blog-writer" align="left">
+                                        By Lorem 2 hours ago
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion" align="right">
+                                    <span>
+                                        <a href="javascript:void" class="blank-url">
+                                            <img src="Images/Blog-page/facebook-share.png" />
+                                        </a>
+                                        <a href="javascript:void" class="blank-url">
+                                            <img src="Images/Blog-page/twitter-share.png" />
+                                        </a>
+                                        <a href="javascript:void" class="blank-url">
+                                            <img src="Images/Blog-page/googleplus-share.png" />
+                                        </a>
+                                        <a href="javascript:void" class="blank-url">
+                                            <img src="Images/Blog-page/pinterest-share.png" />
+                                        </a>
+                                        <a href="javascript:void" class="blank-url">
+                                            <img src="images/Blog-page/linkedin-share.png" />
+                                        </a>
+                                    </span>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <p class="blog-content">
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for textview.setTypeface(myfont); web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                    </p>
+                                    <center>
+                                        <img src="Images/Blog-page/random-img.png" class="img-responsive" />
+                                    </center>
+                                    <p class="blog-content-bold">
+                                        It is a long established fact that a reader will be distracted by the readable
+                                    </p>
+                                    <p class="blog-content-regular">
+                                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                                    </p>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <ol type="1" class="padding-top10">
+                                        <li class="blog-content-regular">
+                                            Commodo ligula eget dolor
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Magnis dis parturient montes
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Pellentesque eu pretium
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Donec quam felis
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Lorem ipsum dolor sit amet
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <div class="col-sm-12 blog-code-portion">
+                                        <p class="blog-code">
+                                            Typeface myfont;<br />
+                                            myfont=Typeface.createFromAsset(getAssets(),"fonts/mylang.ttf");<br />
+                                            TextView textview = (TextView)findViewById(R.id.TextView01);<br />
+                                            textview.setText(R.string.my_textview);<br />
+                                            textview.setTypeface(myfont);<br />
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <ol type="1" class="padding-top10">
+                                        <li class="blog-content-regular">
+                                            Commodo ligula eget dolor
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Magnis dis parturient montes
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Pellentesque eu pretium
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Donec quam felis
+                                        </li>
+                                        <li class="blog-content-regular">
+                                            Lorem ipsum dolor sit amet
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <div class="col-sm-12 blog-code-portion">
+                                        <p class="blog-code">
+                                            textview.setText(R.string.my_textview);<br />
+                                            textview.setTypeface(myfont);
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <table class="blog-content-table">
+                                        <thead>
+                                            <tr>
+                                                <th align="center">
+                                                    Data
+                                                </th>
+                                                <th>
+                                                    Column2
+                                                </th>
+                                                <th>
+                                                    Column3
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="odd">
+                                                <td>
+                                                    <b>What is Lorum Ispum?</b>
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>
+                                                    <b>Why doo we use it?</b>
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <b>Where does it come from?</b>
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>
+                                                    <b>Where can i Get Some</b>
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                            </tr>
+                                            <tr class="odd">
+                                                <td>
+                                                    <b>Where do we use it?</b>
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                            </tr>
+                                            <tr class="even">
+                                                <td>
+                                                    <b>What is Lorem ispum?</b>
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                                <td align="center">
+                                                    Yes
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion" align="right">
+                                    <a class="blog-action" href="#">
+                                        <span>
+                                            <img src="Images/Blog-page/print.png" />
+                                        </span>&nbsp;
+                                        Print
+                                    </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a class="blog-action" href="#">
+                                        <span>
+                                            <img src="Images/Blog-page/pdf.png" />
+                                        </span>&nbsp;
+                                        Download Pdf
+                                    </a>
+                                    <br />
+                                </div>
+                            </div>
+                            <!--Blog Section-->
+                            <!--Video Section-->
+                            <div id="tab2" class="tab">
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <div class="video-container">
+                                        <iframe width="420" height="345" src="https://www.youtube.com/embed/xQ_IQS3VKjA"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <p class="blog-heading"><span><img src="Images/Blog-page/apple-icon.png" /></span>Starting With iOS</p>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <div class="video-container">
+                                        <iframe width="420" height="345" src="https://www.youtube.com/embed/xQ_IQS3VKjA"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <p class="blog-heading"><span><img src="Images/Blog-page/apple-icon.png" /></span>Starting With iOS</p>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <div class="video-container">
+                                        <iframe width="420" height="345" src="https://www.youtube.com/embed/xQ_IQS3VKjA"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <p class="blog-heading"><span><img src="Images/Blog-page/apple-icon.png" /></span>Starting With iOS</p>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <div class="video-container">
+                                        <iframe width="420" height="345" src="https://www.youtube.com/embed/xQ_IQS3VKjA"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 blog-inner-portion">
+                                    <p class="blog-heading"><span><img src="Images/Blog-page/apple-icon.png" /></span>Starting With iOS</p>
+                                </div>
+                            </div>
+                            <!--Video Section-->
+                            <!--Projects Section-->
+                            <div id="tab3" class="tab">
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                                <div class="clr"></div>
+                                <div class="blogs">
+                                    <h4><a href="#">Starting With iOS</a></h4>
+                                    <h5>iOS Hello World App you can start with this</h5>
+                                    <p class="blog-para">Update 12 days ago</p>
+                                </div>
+                            </div>
+                            <!--Project Section-->
+                        </div>
+                    </div>
+                </div>
+                <!--Tab Section Ends-->
+                <div class="col-sm-3" style="background-color:#f5f5f5;">
+                    <div class="drag-right padding">
+                        <h5>Advertisement</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="share-buttons" id="videosection">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12" align="center">
+                <span>
+                    <a href="#" class="blank-url">
+                        <img src="Images/Blog-page/facebook-share.png" />
+                    </a>
+                    <a href="#" class="blank-url">
+                        <img src="Images/Blog-page/twitter-share.png" />
+                    </a>
+                    <a href="#" class="blank-url">
+                        <img src="Images/Blog-page/googleplus-share.png" />
+                    </a>
+                    <a href="#" class="blank-url">
+                        <img src="Images/Blog-page/pinterest-share.png" />
+                    </a>
+                    <a href="#" class="blank-url">
+                        <img src="images/Blog-page/linkedin-share.png" />
+                    </a>
+                </span>
+            </div>
+            </div>
+        </div>
+        </section>
+    <section class="buttons-prev-nxt">
+        <div class="container-fluid">
+            <div class="row">
+        <div class="col-sm-12 blog-buttons">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3">
+                <button class="button-prev prev-next">Previous Blog</button>
+            </div>
+            <div class="col-sm-3">
+                <button class="button-nxt prev-next">Next Blog</button>
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="leave-comment blogComments" id="blogComment">
+        <h5 class="leave-heading">Comment</h5>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-6">
+                    <form id="comment" action="" method="post" style="padding-top:20px;">
+                        <div class="form-inline">
+                            <input type="text" placeholder="Add a Comment">
+                            <input type="button" class="btn" value="Comment">
+                        </div>
+                    </form>
+                    <div class="form-bottom">
+                        <h5>Gyanendra Dutt</h5>
+                        <p>I have a programmer friend who also plays paino.For a password he places his finger<br/>on computer keyboard and plays them as if they are paino keyboard.He has no idea<br/> which charcter he types but eaisly remember the notes to play!</p>
+                    </div>
+                    <form id="reply" action="" method="post" style="padding-top:20px;">
+                        <div class="form-inline">
+                            <input type="text" placeholder="Reply to this Comment">
+                            <input type="button" class="btn" value="Reply">
+                        </div>
+                    </form>
+                    <div class="form-bottom">
+                        <h5>Ayush Mehra</h5>
+                        <p>I have a programmer friend who also plays paino.For a password he places his finger<br />on computer keyboard and plays them as if they are paino keyboard.He has no idea<br /> which charcter he types but eaisly remember the notes to play!</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Footer Start Here-->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5" style="padding-bottom:20px;">
+                    <a class="copyright-text" href="javascript:void(0);">
+                        Copyright @ 2016.Nodesroom<br />
+                        <font class="color-gray">
+                            All rights reserved,IntelliLearn<br />
+                        </font>
+                    </a>
+                </div>
+                <div class="col-sm-7">
+                    <div class="col-sm-4">
+                    </div>
+                    <div class="col-sm-8">
+                        <div id="image" style="display:inline;">
+                            <a href="https://www.facebook.com/IntelliRise/?fref=ts" target="_blank"><img src="Images/Footer/sm-facebook.png" border="0" /></a>
+                        </div>
+
+                        <div id="texts" style="display:inline; white-space:nowrap;">
+                            <a href="https://www.facebook.com/IntelliRise/?fref=ts" target="_blank" class="social-button">FACEBOOK</a>
+                        </div>
+                        <div id="image" style="display:inline;">
+                            <a href="https://twitter.com/intellirisecorp" target="_blank"><img src="Images/Footer/sm-twitter.png" class="MarginLeft"></a>
+                        </div>
+
+                        <div id="texts" style="display:inline; white-space:nowrap;">
+                            <a href="https://twitter.com/intellirisecorp" target="_blank" class="social-button">TWITTER</a>
+                        </div>
+                        <div id="image" style="display:inline;">
+                            <a href="https://plus.google.com/118335672136722419328" target="_blank"><img src="Images/Footer/sm-googleplus.png" class="MarginLeft"></a>
+                        </div>
+
+                        <div id="texts" style="display:inline; white-space:nowrap;">
+                            <a href="https://plus.google.com/118335672136722419328" target="_blank" class="social-button">GOOGLE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="go-top"><img src="Images/top.png" style="height:50px;width:50px;" /></a>
+    </footer>
+    <!--Section-->
+    <script src="Javascript/main.js"></script>
+</body>
+</html>

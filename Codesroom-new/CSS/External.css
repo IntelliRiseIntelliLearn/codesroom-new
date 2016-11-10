@@ -1,0 +1,372 @@
+﻿@import url('Font.css');
+/*B*/
+.btn-signin {
+	background-color: #59B2E0;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #59B2E6;
+}
+.btn-signin:hover,
+.btn-signin:focus {
+	color: #fff;
+	background-color: #53A3CD;
+	border-color: #53A3CD;
+}
+/*C*/
+#comment input[type="text"],
+#comment button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+#comment h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#comment h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+#comment input[type="text"]
+{
+  width: 75%;
+  border: 1px solid #ccc;
+  background: rgba(238, 238, 238, 0.48);
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family:OpenSans-Regular;
+  font-size:15px;
+}
+
+#comment input[type="text"]:hover
+{
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#comment textarea {
+  height: 150px;
+  max-width: 100%;
+  resize: none;
+}
+
+#comment button[type="submit"] {
+    cursor: pointer;
+    width: 35%;
+    border: none;
+    background: #03a9f4;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    height: 50px;
+    margin-left: 150px;
+    font-family: Opensans-Bold;
+    border-radius: 10px;
+}
+
+#comment button[type="submit"]:hover {
+  background: #03a9f4;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#comment button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#comment input:focus,
+#comment textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+    height: 40px;
+	width: 40px;
+	position: absolute;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0);
+    background-color: rgba(0,0,0,0);
+	bottom: 40px;
+	left:100px;
+	opacity:1.1;
+    top: initial;
+}
+.carousel-control.right {
+	right: 100px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+/*S*/
+.searchbar-menu {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../Images/search-icon.png');
+    background-position: 9px 11px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    outline:none;
+}
+/*T*/
+
+
+/*T*/
+/*J*/
+
+/*Comment Form*/
+
+/*Reply*/
+
+#reply input[type="text"],
+#reply button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+#reply h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#reply h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#reply input[type="text"]
+ {
+  width: 75%;
+  border: 1px solid #ccc;
+  background: rgba(238, 238, 238, 0.48);
+  margin: 0 0 5px;
+  padding: 10px;
+  font-family:OpenSans-Regular;
+  font-size:15px;
+}
+
+#reply input[type="text"]:hover
+{
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#reply button[type="submit"] {
+    cursor: pointer;
+    width: 35%;
+    border: none;
+    background: #03a9f4;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    height: 50px;
+    margin-left: 150px;
+    font-family: Opensans-Bold;
+    border-radius: 10px;
+}
+
+#reply button[type="submit"]:hover {
+  background: #03a9f4;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#reply button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#reply input:focus,
+#reply textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+/*Table in Third Page*/
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+.table-fill {
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: auto;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: auto;
+    animation: float 5s infinite;
+}
+ 
+th {
+    font-family: OpenSans-SemiBold;
+    text-transform: uppercase;
+    color: #fff;
+    background: #58abf5;
+    font-size: 16px;
+    font-weight: 100;
+    padding: 5px;
+    text-align: left;
+    vertical-align: middle;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    width: 350px;
+}
+
+th:first-child {
+}
+ 
+th:last-child {
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  color:#FFFFFF;
+}
+ 
+tr:first-child {
+  border-top:none;
+}
+
+tr:last-child {
+  border-bottom:none;
+}
+ 
+tr:nth-child(odd) td {
+  background: #fff;
+}
+  
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:15px;
+  border-right: 1px solid #C1C3D1;
+}
+
+td:last-child {
+  border-right: 0px;
+}
+
+th.text-left {
+  text-align: center;
+}
+
+th.text-center {
+  text-align: center;
+}
+
+th.text-right {
+  text-align: right;
+}
+
+td.text-left {
+  text-align: left;
+}
+
+td.text-center {
+  text-align: center;
+}
+
+td.text-right {
+  text-align: right;
+}
+tbody:before {
+    /* This doesn't work because of border-collapse */
+    line-height:2px;
+    content:"_";
+    color:white;
+    display:none;
+}
+.table-hover {
+    display: table;
+    width: 93%;
+    text-align: center;
+    background: #FFF;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.table-text{
+	font-size: 15px;
+    font-family: OpenSans-Regular;
+    padding-left: 10px;
+    color: #000;
+}
+.table-img{
+	padding-bottom: 4px;
+}
+@media screen and (max-width: 500px) { 
+  div{width:100%;} 
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
