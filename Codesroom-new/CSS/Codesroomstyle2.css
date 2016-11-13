@@ -1,0 +1,218 @@
+﻿@import url('Font.css');
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+body {
+  margin: 0;
+  background: #000; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.signin-column {
+    text-align:center;
+}
+.signin-button {
+    background-color: #59B2E0; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 35px 2px;
+    cursor: pointer;
+    outline:none;
+    font-family: OpenSans-Bold;
+    text-transform: uppercase;
+}
+.border-button {border-radius: 12px;}
+.header-polish{
+	height:auto;
+	width:100%;
+	background-color:rgba(51, 122, 183, 0.81);
+}
+.header-polish>h5{
+	font-family:OpenSans-Bold;
+	font-size:15px;
+	text-transform:uppercase;
+	text-align:center;
+	margin:0;
+	padding-top:20px;
+	padding-bottom:20px;
+	color:#fff;
+}
+.content{
+	font-size:20px;
+	padding:75px 0;
+}
+.codroom-content{
+	background-color:rgba(0, 0, 0, 0.48);
+	height:auto;
+	width:90%;
+	margin-top:15px;
+    margin-left:15px;
+}
+.content-header{
+	font-family: OpenSans-Bold;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.content-bottom {
+    height:auto;
+    width:100%;
+}
+    .content-bottom > a {
+    color: #fff;
+    font-family: OpenSans-Italic;
+    font-size: 20px;
+    float: right;
+    text-decoration: none;
+    padding-right: 35px;
+    }
+.input {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	margin: 1em;
+	max-width: 100%;
+	width: calc(100% - 2em);
+	vertical-align: top;
+}
+
+.input__field {
+	position: relative;
+	display: block;
+	float: right;
+	padding: 0.8em;
+	width: 60%;
+	border: none;
+	border-radius: 0;
+	background: #f0f0f0;
+	color: #fff;
+	font-weight: 400;
+	font-family: OpenSans-regular;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+	outline: none;
+}
+
+.input__label {
+	display: inline-block;
+	float: right;
+	padding: 0 1em;
+	width: 40%;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 70.25%;
+	user-select: none;
+}
+
+.input__label-content {
+	position: relative;
+	display: block;
+	padding: 1.6em 0;
+	width: 100%;
+}
+
+.graphic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.icon {
+	color: #fff;
+	font-size: 150%;
+}
+.input--nao {
+	overflow: hidden;
+	padding-top: 1em;
+}
+
+.input__field--nao {
+	padding: 0.5em 0em 0.25em;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    font-size: 24px;
+    font-family: OpenSans-light;
+}
+
+.input__label--nao {
+	position: absolute;
+	top: 0.95em;
+	font-size: 0.85em;
+	left: 0;
+	display: block;
+	width: 100%;
+	text-align: left;
+	padding: 0em;
+	pointer-events: none;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transition: -webkit-transform 0.2s 0.15s, color 1s;
+	transition: transform 0.2s 0.15s, color 1s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.graphic--nao {
+	stroke: #fff;
+	pointer-events: none;
+	-webkit-transition: -webkit-transform 0.7s, stroke 0.7s;
+	transition: transform 0.7s, stroke 0.7s;
+	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
+} 
+
+.input__field--nao:focus + .input__label--nao,
+.input--filled .input__label--nao {
+	color: #fff;
+	-webkit-transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+	transform: translate3d(0, -1.25em, 0) scale3d(0.75, 0.75, 1);
+}
+
+.input__field--nao:focus ~ .graphic--nao,
+.input--filled .graphic--nao {
+	stroke: #333;
+	-webkit-transform: translate3d(-66.6%, 0, 0);
+	transform: translate3d(-66.6%, 0, 0);
+}
+.else {
+    font-family:OpenSans-Semibold;
+    font-size:20px;
+    color:#fff;
+    text-align:center;
+    margin-top:0px;
+}
+.signin-google {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

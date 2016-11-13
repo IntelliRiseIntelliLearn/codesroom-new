@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Signin</title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="CSS/Codesroomstyle2.css" rel="stylesheet" />
+</head>
+<body>
+    <!--video tag-->
+    <video poster="Images/Video/background.png" id="bgvid" playsinline autoplay muted loop>
+        <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+        <source src="Videos/newvideo.webm" type="video/webm">
+        <source src="Videos/newvideo.mp4" type="video/mp4">
+        <source src="Videos/newvideo.ogv" type="video/ogg">
+    </video>
+    <!--Video tag-->
+    <!--Header signin-->
+    <div class="header-polish">
+        <h5>CodesRoom</h5>
+    </div>
+    <!--Header Signin-->
+    <!--Header bottom Part-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-6">
+                <div class="codroom-content">
+                    <!--Header bottom sign in start-->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-2">
+                                <img src="Images/back.png" style="padding-top:6px;">
+                            </div>
+                            <div class="col-sm-8">
+                                <h5 class="content-header">Sign in</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Header bottom sign in ends-->
+                    <!--Section Content Start-->
+                    <section class="content">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <!--Textbox Email Start-->
+                                    <span class="input input--nao">
+                                        <input class="input__field input__field--nao" type="email" id="input-1" />
+                                        <label class="input__label input__label--nao" for="input-1">
+                                            <span class="input__label-content input__label-content--nao">Email ID</span>
+                                        </label>
+                                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0" />
+                                        </svg>
+                                    </span>
+                                    <!--Textbox Email Ends-->
+                                    <!--Textbox Password Start-->
+                                    <span class="input input--nao">
+                                        <input class="input__field input__field--nao" type="password" id="input-2" />
+                                        <label class="input__label input__label--nao" for="input-2">
+                                            <span class="input__label-content input__label-content--nao">Password</span>
+                                        </label>
+                                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0" />
+                                        </svg>
+                                    </span>
+                                    <!--Textbox Password Ends-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-bottom">
+                            <a href="#">Forgot Password</a>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="signin-column">
+                                       <button class="signin-button border-button" onclick="window.location.href='#'">Sign in</button>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                </div>
+                            </div>
+                        </div>
+                      <h5 class="else">or</h5>
+                     <section class="social-icon-signin">
+                       <button class="signin-google" onclick="windows.loaction.href='#'">sign in with google</button>
+                     </section>
+                    </section>
+                    <!--Section Content Ends-->
+                   
+                </div>       
+            </div>
+            <div class="col-sm-3">
+            </div>
+        </div>
+    </div>
+    <!--Header bottom part-->
+    <script src="Javascript/External.js"></script>
+</body>
+</html>
